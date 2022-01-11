@@ -1,0 +1,18 @@
+    1  cd
+    2  yum -y update
+    3  yum -y install git
+    4  git --version
+    5  mkdir git
+    6  cd git
+    7  git init
+    8  git config --global user.name 'rt-technologies'
+    9  git config --global user.email 'rttechnologies2021@gmail.com'
+   10  vi file
+   11  ls
+   12  git add file
+   13  git status
+   14  git commit -m 'first code'
+   15  git remote add origin https://github.com/RT-Technologies/RT-Technologies.git
+   16  git pull origin master
+   17  git push origin master
+   18  history
